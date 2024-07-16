@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left-header">
+                <img id="img" src="logo.webp" alt=""></div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                </svg>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <section id="home">
+        <h1>Welcome to Our Gym FitZone Fitness: Your Path to Health and Wellness Starts Now.</h1>
+        <p>Welcome to our gym, where fitness meets community. We offer state-of-the-art equipment, expert trainers, and a variety of classes to help you reach your health and wellness goals. Join us and experience a supportive environment dedicated to your fitness journey.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to FitZone Fitness, where we believe in transforming lives through fitness. Founded with a passion for health and wellness, our gym is dedicated to providing a motivating and inclusive environment for every individual, regardless of their fitness level.</p>
+        <p>At FitZone Fitness, we offer a comprehensive range of amenities and services to support your fitness journey. From state-of-the-art equipment to personalized training programs crafted by our certified instructors, we are committed to helping you achieve your fitness goals effectively and safely</p>
+        <p>Beyond workouts, we foster a community-driven atmosphere where members support and inspire each other. Whether you're here to build strength, improve flexibility, or simply enhance your overall well-being, FitZone Fitness is here to guide and empower you every step of the way.</p>
+        
+        <p>Join us today and discover why FitZone Fitness is more than just a gym—it's a place where health, happiness, and fitness thrive together.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-1">
+            <div class="service-1-left">
+            <h3>Advanced Machines</h3>
+            <p>Experience cutting-edge fitness technology with our range of advanced machines designed to optimize your workouts and track your progress.</p>
+        </div>
+        <div class="service-1-right">
+            <img src="matchine.webp"   alt="machines">
+        </div>
+        </div>
+        
+        <div class="service-2">
+            <div class="service-2-left">
+            <h3>Personal Training</h3>
+            <p>Work closely with our certified trainers to achieve your fitness goals through personalized training sessions.</p>
+        </div>
+        <div class="service-2-right">
+            <img src="personaltriner.png" alt="personalized trainers">
+        </div>
+        </div>
+        <div class="service-3">
+            <div class="service-3-left">
+            <h3>Group Fitness Classes</h3>
+            <p>Join dynamic group classes led by experienced instructors, including yoga, HIIT, and more, tailored to various fitness levels.</p>
+        </div>
+            <div class="service-3-right">
+                <img src="groupfittness.jpg"  alt="groupfittness">
+            </div>
+        </div>
+        <div class="service-4">
+            <div class="service-4-left">
+            <h3>Nutritional Counseling</h3>
+            <p>Receive expert guidance on nutrition and diet plans to complement your fitness regimen and achieve holistic wellness.</p>
+        </div>
+        <div class="service-4-right">
+            <img src="Nutrition-Counseling.png"  alt="nutrition">
+        </div>
+        </div>
+    </section>
+    <section class="membership">
+        <div class="1-month">
+            <h2> 1 Month Membership : price 1999/- only</h2>
+            <button class="btn">subscribe Now</button>
+        </div>
+        <div class="3-month">
+            <h2> 3 Month Membership : price 3999/- only</h2>
+            <button class="btn">subscribe Now</button>
+        </div>
+        <div class="6-month">
+            <h2> 6 Month Membership : price 5999/- only</h2>
+            <button class="btn">subscribe Now</button>
+        </div>
+        <div class="1-year">
+            <h2>1 Year Membership : price 9999/- only</h2>
+            <button class="btn">subscribe Now</button>
+        </div>
+        <div class="1-year-family">
+            <h2>1 Year Membership Family pack : price 11999/- only</h2>
+            <a href=""><button class="btn">subscribe Now</button></a>
+        </div>
+    </section>
+    <div class="form" id="contact">
+        <div class="heading">
+          <h4>Contact-Us</h4>
+        </div>
+    <script style="color: white;" src="https://sheetdb.io/s/f/x3wq0urvixlqh.js"></script>
+</div>
+    
+    
+    <footer>
+        <p>&copy; 2024 FitZone Fitness by Dinesh </p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</html>
